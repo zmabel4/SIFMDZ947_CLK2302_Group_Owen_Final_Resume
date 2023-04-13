@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sifiso  Mdzebele</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/2ab9ce8a4a.js" crossorigin="anonymous"></script>
+</head>
+<!-----------------------------nav---------------------------------------->
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            
+        
+            <div class="header-text">
+                <p>Front-End Designer</p>
+                <h1>Hi,<br>I'm <span>Sifiso</span> Mdzebele</h1>
+            </div>
+        </div>
+<!----------------------about me------------------------------------------------------>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am your new most innovative web developer.My aim is to bring fresh ideas which will bring
+                        change, by doing so this will help businesses grow their audience and brand
+                        recognition through web developing.My goal is to help you understand the power of 
+                        software developing and create connection that goes beyond the internet.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>CodeSpace Academy 2023</span><br>Intro to Web Development.</li>
+                            <li><span>Rosville College 2015-2018</span><br>Electrical Engineering.</li>
+                            <li><span>University of Mpumalanga 2019-2022</span><br>Plant Prouction</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Power & Energy</span><br>Web Developer.</li>
+                            <li><span>Maxmart Retail</span><br>App developer.</li>
+                            <li><span>Click Foundation</span><br>Lab Facillitator/Hardware Specialist.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development.</li>
+                            <li><span>App Development</span><br>Building apps.</li>
+                            <li><span>Hardware Mantainer</span><br>Fixing Computers.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------services------------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <h2>Web Developer.</h2>
+                        <p>Dellivering websites,UX/UI design,eCommerce solutions,website architecture,
+                            QA testing,maintenance,consulting and customer CMS.
+
+                        </p>
+                        <a href="#">Find out more</a>
+                    </div>
+                    
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Development.</h2>
+                        <p>Custom IOS and Android app Development,Progressive web app Development,
+                          mobile app porting,prototyping and power management.
+
+                        </p>
+                        <a href="#">Find out more</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                        <h2>Hardware Specialist.</h2>
+                        <p>Maintenance of a computer and its peripherals,including fans,hard drives 
+                           and keybords and printers. 
+
+                        </p>
+                        <a href="#">Find out more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!------------------------------Work----------------------->
+    <div id="Work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image1.jpg">
+                    <div class="layer">
+                        <h3>Web design.</h3>
+                        <p>I have desinged several websites.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image2.jpg">
+                    <div class="layer">
+                        <h3>App Developer.</h3>
+                        <p>I have developed Android and IOS mobile apps.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image3.jpg">
+                    <div class="layer">
+                        <h3>Hardware Specialist.</h3>
+                        <p>I have fixed and mantained computers and laptops.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------------------contact---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>s.mdzebele@lab.clicklearning.org</p>
+                    <p><i class="fa-solid fa-square-phone"></i>073 5951 906</p>
+                    <div class="social-icons">
+                        <a href="http://facebook.com/sfiso.jr.1"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://instagram.com/sfiso.jr.1"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="http://twitter.com/sifiso"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="http://linkedin.com/sifiso"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="http://whatsapp.com/sifiso"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/zmabel4/Digital-Resume.git"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.figma.com/file/dJdZ1savjBhLul6tZWzWap/RESUME?node-id=0%3A1&t=xyFSmrRA0F1T4dnH-1"><i class="fa-brands fa-figma"></i></a>
+                    </div>
+                    <a href="/images/si8fiso.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+                    
+    
+                
+            </div>
+        </div>
+
+        
+    </div>
+    <div class="copyright">
+        <p>copyright@Sifiso.CodeSpace</p>
+    </div>
+
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    
+    
+</body>
+
+</html>
